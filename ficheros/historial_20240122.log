@@ -1,0 +1,377 @@
+Lista de prestamos: 
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Seleccionados todos los usuarios.
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Diego Ramírez | con id: 26
+Prestamo insertado: IdPrestamo: 0, IdLibro: 14, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.1500023
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Diego Ramírez | con id: 26
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (08:35:23)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (08:36:05)
+Usuario conectado: root a null (08:36:45)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionadas todas las categorias. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionados todos los usuarios.
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Prestamo modificado: IdPrestamo: 6, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 08:30:44.0
+Usuario conectado: root a null (10:22:31)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 08:30:44.0
+Usuario modificado: Lucía Gálvez | con id: 25
+Seleccionadas todas las categorias. 
+Usuario modificado: Lucía Gálvez | con id: 25
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (10:25:14)
+Seleccionados todos los usuarios.
+Usuario modificado: Lucíaa Gálvez | con id: 25
+Seleccionados todos los usuarios.
+Usuario modificado: Lucía Gálvez | con id: 25
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: Libro de Omar Monte | con id: 14
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: Guia Matisse | con id: 15
+Seleccionados todos los libros. 
+Usuario conectado: root a null (10:27:00)
+Usuario conectado: root a null (10:27:04)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los atributos de libro.
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Libro modificado: Libro de Omar Monte | con id: 14
+Seleccionados todos los libros. 
+Libro modificado: Guia Matisse | con id: 15
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Prestamo modificado: IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Usuario conectado: root a null (10:36:31)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Categoria modificada: Comedia 😂😂 | con id: 4
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Categoria modificada: Amor | con id: 5
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Usuario modificado: Pablo  | con id: 28
+Seleccionados todos los usuarios.
+Usuario modificado: Pablo Aguilar | con id: 28
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Seleccionados todos los atributos de libro.
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Prestamo modificado: IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionadas todas las categorias. 
+Libro insertado: 
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Categoria seleccionada:  | con id: 6
+Categoria eliminada: 
+Seleccionadas todas las categorias. 
+Libro seleccionado:  | con id: 17
+Libro eliminado: 
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Libro modificado: Libro de Juaquin  | con id: 13
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Categoria modificada: Amor😍 | con id: 5
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Usuario modificado: Lucía Gálvez | con id: 25
+Seleccionados todos los usuarios.
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 26, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionadas todas las categorias. 
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Diego Ramírez | con id: 26
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Prestamo modificado: IdPrestamo: 6, IdLibro: 15, IdUsuario: 27, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 27, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionadas todas las categorias. 
+Categoria modificada: Terror 😱 | con id: 3
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 15, IdUsuario: 27, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Natalia Herrera | con id: 27
+Seleccionados todos los usuarios.
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los atributos de usuario.
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Prestamo modificado: IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Categoria seleccionada:  | con id: 7
+Categoria eliminada: 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (10:55:12)
+Usuario conectado: root a null (10:55:17)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Libro insertado: sdfds
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro seleccionado: sdfds | con id: 18
+Libro eliminado: sdfds
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Juaquin  | con id: 13
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Prestamo modificado: IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Seleccionados todos los atributos de libro.
+Usuario conectado: root a null (16:10:44)
+Usuario conectado: root a null (16:13:39)
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:14:55)
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:16:22)
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:17:59)
+Categoria insertada: 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:18:47)
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:20:28)
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Categoria insertada: Miedo
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Categoria insertada:    
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:22:06)
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Categoria insertada:    asa
+Seleccionadas todas las categorias. 
+Categoria modificada:  | con id: 14
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:23:49)
+Seleccionadas todas las categorias. 
+Categoria modificada:  | con id: 12
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:24:39)
+Seleccionadas todas las categorias. 
+Categoria modificada: asda | con id: 8
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (16:27:21)
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro insertado: A
+Seleccionados todos los libros. 
+Usuario conectado: root a null (16:28:05)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro insertado: a
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: a | con id: 20
+Seleccionados todos los libros. 
+Usuario conectado: root a null (16:31:08)
+Seleccionados todos los usuarios.
+Usuario insertado: 
+Seleccionados todos los usuarios.
+Usuario conectado: root a null (16:31:48)
+Seleccionados todos los usuarios.
+Usuario conectado: root a null (16:32:29)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Usuario conectado: root a null (16:55:43)
+Usuario conectado: root a null (16:56:32)
+Usuario conectado: root a null (16:57:34)
+Usuario conectado: root a null (16:58:12)
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Usuario conectado: root a null (17:07:39)
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Usuario conectado: root a null (17:09:48)
+Seleccionados todos los libros. 
+Usuario conectado: root a null (17:14:40)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionadas todas las categorias. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Usuario conectado: root a 172.24.240.1 (17:27:15)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Prestamo insertado: IdPrestamo: 0, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:41.6273163
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Usuario conectado: root a 172.24.240.1 (17:50:38)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Seleccionados todos los libros. 
+Usuario conectado: root a 172.24.240.1 (17:53:31)
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 

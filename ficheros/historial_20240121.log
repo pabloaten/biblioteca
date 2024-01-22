@@ -1,0 +1,152 @@
+Usuario conectado: root a null (18:39:58)
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 13, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: Libro de Juaquin der beti | con id: 14
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: Libro de Juaquin der beti | con id: 14
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 13, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: HOLA Flores | con id: 17
+Seleccionadas todas las categorias. 
+Seleccionados todos los atributos de libro.
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 13, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: Antoniod payasoo | con id: 18
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: Antoniod payasoo | con id: 18
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Libro de Juaquin der beti | con id: 14
+Usuario seleccionado: Antoniod payasoo | con id: 18
+Prestamo modificado: IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Usuario modificado: Rafael GPTA | con id: 24
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (18:46:15)
+Usuario conectado: root a null (18:47:24)
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: HOLA Flores | con id: 17
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Juaquin der beti | con id: 14
+Usuario seleccionado: HOLA Flores | con id: 17
+Seleccionados todos los libros. 
+Libro seleccionado: adsasd | con id: 15
+Usuario seleccionado: HOLA Flores | con id: 17
+Seleccionados todos los atributos de libro.
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: HOLA Flores | con id: 17
+Prestamo modificado: IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Usuario conectado: root a null (18:52:56)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a null (19:39:12)
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: HOLA Flores | con id: 17
+Seleccionadas todas las categorias. 
+Prestamo modificado: IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+  -IdPrestamo: 4, IdLibro: 13, IdUsuario: 17, FechaPrestamo: 2024-01-19 20:18:40.0
+Seleccionadas todas las categorias. 
+Libro modificado: adsasd | con id: 15
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Categoria modificada: Comedia 😂😂 | con id: 4
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Libro insertado: PRUEBA
+Seleccionados todos los libros. 
+Usuario conectado: root a null (19:40:55)
+Seleccionados todos los usuarios.
+Usuario seleccionado: HOLA Flores | con id: 17
+Usuario eliminado: HOLA
+Seleccionados todos los usuarios.
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 14
+Usuario seleccionado: Antoniod payasoo | con id: 18
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Categoria modificada: Terror | con id: 3
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Usuario conectado: root a null (19:43:21)
+Seleccionados todos los usuarios.
+Usuario modificado: Beatriz Ramos | con id: 21
+Seleccionadas todas las categorias. 
+Usuario seleccionado: Beatriz Ramos | con id: 21
+Usuario eliminado: Beatriz
+Seleccionados todos los usuarios.
+Usuario conectado: root a null (19:44:51)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: PRUEBA | con id: 16
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro seleccionado: PRUEBA | con id: 16
+Libro eliminado: PRUEBA
+Seleccionados todos los libros. 
+Usuario conectado: root a null (19:46:06)
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 14
+Usuario seleccionado: Antoniod payasoo | con id: 18
+Seleccionadas todas las categorias. 
+Prestamo modificado: IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Lista de prestamos: 
+  -IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 14
+Usuario seleccionado: Antoniod payasoo | con id: 18
+Seleccionadas todas las categorias. 
+Prestamo seleccionado: IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Prestamo eliminado: IdPrestamo: 3, IdLibro: 14, IdUsuario: 18, FechaPrestamo: 2024-01-19 19:41:22.0
+Lista de prestamos: 
+Lista de prestamos: 
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Seleccionados todos los usuarios.
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: Marta Reyes | con id: 23
+Prestamo insertado: IdPrestamo: 0, IdLibro: 13, IdUsuario: 23, FechaPrestamo: 2024-01-21 19:46:27.7475963
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: Marta Reyes | con id: 23
+Lista de prestamos: 
+  -IdPrestamo: 5, IdLibro: 13, IdUsuario: 23, FechaPrestamo: 2024-01-21 19:46:28.0
+Seleccionadas todas las categorias. 
+Categoria modificada: Terror | con id: 3
+Seleccionadas todas las categorias. 
+Lista de prestamos: 
+  -IdPrestamo: 5, IdLibro: 13, IdUsuario: 23, FechaPrestamo: 2024-01-21 19:46:28.0
+Libro seleccionado: Libro de Juaquin der beti | con id: 13
+Usuario seleccionado: Marta Reyes | con id: 23
+Seleccionadas todas las categorias. 
+Usuario conectado: rot a null (19:54:46)
+Usuario conectado: root a null (19:54:53)
+Usuario conectado: root a null (19:55:42)
