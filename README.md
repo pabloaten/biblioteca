@@ -9,7 +9,7 @@ A continuación, vamos a detallar la correspondencia entre las clases de nuestro
 #### Clase `CategoriaDTO`
 
 La clase `CategoriaDTO` representa una categoría de libros. La tabla asociada, llamada `Categorias`, almacena la información detallada de cada categoría.
-
+```java 
 '@Entity
 @Table(name = "categoria", schema = "BIBLIOTECA", catalog = "")
 public class CategoriaDTO {
@@ -51,13 +51,14 @@ public class CategoriaDTO {
     public String toString() {
         return categoria;
     }
-}'
+}
+```
 
 #### Clase `CategoriaRepository`
 
 La clase `CategoriaRepository` contiene los métodos necesarios para cumplir con el CRUD de la tabla Categoria.
 
-'
+```java 
 public class CategoriaController {
 
     private Session session = HibernateUtil.getSessionFactory().getCurrentSession();
@@ -146,7 +147,8 @@ public class CategoriaController {
         LogFile.saveLOG("Seleccionadas todas las categorias. ");
         return lista;
     }
-}'
+}
+```
 
 ### 2. Tabla `Libros`
 
@@ -154,6 +156,7 @@ public class CategoriaController {
 
 La clase `LibroDTO` modela la entidad de libro en nuestra aplicación. La información de cada libro se guarda en la tabla `Libros`, que incluye detalles como autor, nombre, editorial y categoría.
 
+```java 
 '@Entity
 @Table(name = "libro", schema = "BIBLIOTECA", catalog = "")
 public class LibroDTO {
@@ -239,13 +242,14 @@ public class LibroDTO {
     public String toString() {
         return nombre;
     }
-}'
+}
+```
 
 #### Clase `LibroController`
 
 La clase `LibroController` contiene los métodos necesarios para cumplir con el CRUD de la tabla Libro.
 
-'
+```java 
 public class LibroController {
     private Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
@@ -386,7 +390,8 @@ public class LibroController {
             throw new Exception("Error leyendo los libros.", e);
         }
     }
-}'
+}
+```
 
 ### 3. Tabla `Usuarios`
 
@@ -394,6 +399,7 @@ public class LibroController {
 
 La clase `UsuarioDTO` corresponde a la entidad de usuario. Los detalles de los usuarios se mantienen en la tabla `Usuarios`, que incluye información como nombre y apellidos.
 
+```java 
 '@Entity
 @Table(name = "usuario", schema = "BIBLIOTECA", catalog = "")
 public class UsuarioDTO {
@@ -446,13 +452,14 @@ public class UsuarioDTO {
     public String toString() {
         return nombre;
     }
-}'
+}
+```
 
 #### Clase `UsuarioController`
 
 La clase `UsuarioController` contiene los métodos necesarios para cumplir con el CRUD de la tabla Usuario.
 
-'
+```java 
 public class UsuarioController {
     private Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
@@ -573,7 +580,8 @@ public class UsuarioController {
             throw new Exception("Error leyendo los usuarios.", e);
         }
     }
-}'
+}
+```
 
 ### 4. Tabla `Prestamos`
 
@@ -581,6 +589,7 @@ public class UsuarioController {
 
 La clase `PrestamosDTO` gestiona los préstamos de libros. La tabla asociada, `Prestamos`, almacena detalles como el libro prestado, el usuario que realizó el préstamo y la fecha correspondiente.
 
+```java 
 '@Entity
 @Table(name = "prestamos", schema = "BIBLIOTECA", catalog = "")
 public class PrestamosDTO {
@@ -660,13 +669,14 @@ public class PrestamosDTO {
     public void setUsuarioByIdUsuario(UsuarioDTO usuarioByIdUsuario) {
         this.usuarioByIdUsuario = usuarioByIdUsuario;
     }
-}'
+}
+```
 
 #### Clase `PrestamoController`
 
 La clase `PrestamoController` contiene los métodos necesarios para cumplir con el CRUD de la tabla Prestamo.
 
-'
+```java 
 public class PrestamoController {
     private Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
@@ -762,7 +772,8 @@ public class PrestamoController {
         }
         LogFile.saveLOG("Prestamo eliminado: " + prestamosDTO.toString());
     }
-}'
+}
+```
 
 ### 5. Tabla `Historico`
 
@@ -770,6 +781,7 @@ public class PrestamoController {
 
 La clase `HistoricoDTO` hace un seguimiento de las acciones del usuario. La tabla asociada, `Historico`, almacena detalles como el usuario que realizó la acción, la fecha en la que se realizó dicha acción y la información correspondiente.
 
+```java 
 '@Entity
 @Table(name = "historico", schema = "BIBLIOTECA", catalog = "")
 public class HistoricoDTO {
@@ -818,13 +830,14 @@ public class HistoricoDTO {
     public void setInfo(String info) {
         this.info = info;
     }
-}'
+}
+```
 
 #### Clase `HistoricoHelper`
 
 La clase `HistoricoHelper` contiene un único método con el que guardar los datos a insertar en la tabla Historico.
 
-'
+```java 
 public class HistoricoHelper {
 
     private static Session session = HibernateUtil.getSessionFactory().getCurrentSession();
@@ -850,7 +863,8 @@ public class HistoricoHelper {
             // Manejar la excepción según tus necesidades
         }
     }
-}'
+}
+```
 
 ## Patron Observer
 
