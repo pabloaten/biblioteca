@@ -18,6 +18,7 @@ import javax.swing.*;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class ExportadorXLSX {
@@ -46,7 +47,7 @@ public class ExportadorXLSX {
                 workbook.write(fileOut);
             }
 
-            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros");
+            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros/usuarios.xlsx");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -73,7 +74,7 @@ public class ExportadorXLSX {
             headerRow.createCell(1).setCellValue("Categoria");
             CategoriaRepository cr = new CategoriaRepository();
 
-            // Recuperar datos de Hibernate y agregar al archivo Excel
+
             List<CategoriaDTO> data = cr.leerTodasCategorias();
             int rowNum = 1;
             for (CategoriaDTO entity : data) {
@@ -87,7 +88,7 @@ public class ExportadorXLSX {
                 workbook.write(fileOut);
             }
 
-            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros");
+            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros/categorias.xlsx");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -112,14 +113,20 @@ public class ExportadorXLSX {
             Row headerRow = sheet.createRow(0);
             headerRow.createCell(0).setCellValue("Libro");
             headerRow.createCell(1).setCellValue("Usuario");
+            headerRow.createCell(2).setCellValue("Fecha");
             PrestamoRepository pr = new PrestamoRepository();
-            // Recuperar datos de Hibernate y agregar al archivo Excel
+
             List<PrestamosDTO> data = pr.leerPrestamos();
             int rowNum = 1;
+            LibroRepository lr = new LibroRepository();
+            UsuarioRepository ur = new UsuarioRepository();
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             for (PrestamosDTO entity : data) {
                 Row row = sheet.createRow(rowNum++);
-                row.createCell(0).setCellValue(entity.getLibroByIdLibro().getNombre());
-                row.createCell(1).setCellValue(entity.getUsuarioByIdUsuario().getNombre());
+
+                row.createCell(0).setCellValue(lr.getLibro(entity.getIdLibro()).getNombre());
+                row.createCell(1).setCellValue(ur.getUsuario(entity.getIdUsuario()).getNombre());
+                row.createCell(2).setCellValue(entity.getFechaPrestamo().toLocalDateTime().format(formatter));
             }
 
             // Guardar el archivo Excel
@@ -127,7 +134,7 @@ public class ExportadorXLSX {
                 workbook.write(fileOut);
             }
 
-            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros");
+            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros/prestamos.xlsx");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -148,13 +155,13 @@ public class ExportadorXLSX {
         try {
             Sheet sheet = workbook.createSheet("DatosHibernate");
 
-            // Crear encabezados
+
             Row headerRow = sheet.createRow(0);
             headerRow.createCell(0).setCellValue("Nombre");
             headerRow.createCell(1).setCellValue("Autor");
             headerRow.createCell(2).setCellValue("Editorial");
             LibroRepository lr = new LibroRepository();
-            // Recuperar datos de Hibernate y agregar al archivo Excel
+
             List<LibroDTO> data = lr.leerLibros();
             int rowNum = 1;
             for (LibroDTO entity : data) {
@@ -169,7 +176,7 @@ public class ExportadorXLSX {
                 workbook.write(fileOut);
             }
 
-            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros");
+            JOptionPane.showMessageDialog(null, "Se ha exportado correctamente a la carpeta ficheros/libros.xlsx");
 
         } catch (IOException e) {
             e.printStackTrace();

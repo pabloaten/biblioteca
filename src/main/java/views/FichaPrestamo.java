@@ -385,7 +385,7 @@ if(getPrestamo().getIdPrestamo() != 0){
         } catch (NumberFormatException e) {
             SwgAuxiliar.msgError("Introduzca un valor númerico o desactive la busqueda por código de usuario");
         } catch (Exception e) {
-            SwgAuxiliar.msgError(e.getMessage());
+            SwgAuxiliar.msgError("No has seleccionado ningun usuario");
         }
     }
 
@@ -419,7 +419,7 @@ if(getPrestamo().getIdPrestamo() != 0){
         } catch (NumberFormatException e) {
             SwgAuxiliar.msgError("Introduzca un valor númerico o desactive la busqueda por código de libro");
         } catch (Exception e) {
-            SwgAuxiliar.msgError(e.getMessage());
+            SwgAuxiliar.msgError("No has seleccionado ningun libro");
         }
     }
 

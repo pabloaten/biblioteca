@@ -112,7 +112,7 @@ public class ListaUsuarios extends JInternalFrame implements VistaUsuarios, Mous
 
     private void setVentana() {
         getContentPane().setBackground(Color.WHITE);
-        setTitle("Listado de categorias:");
+        setTitle("Listado de Usuarios:");
         setDefaultCloseOperation(JInternalFrame.DISPOSE_ON_CLOSE);
         Dimension dime = new Dimension(WIDTH, HEIGHT);
         setBounds(FormMain.posInterna(), FormMain.posInterna(), WIDTH, HEIGHT);

@@ -32,7 +32,7 @@ public class ExportadorCSV {
             session = HibernateUtil.getSessionFactory().getCurrentSession();
             transaction = session.beginTransaction();
 
-            // Realiza una consulta para obtener los datos de libros que deseas exportar
+
             String hql = "FROM LibroDTO";
 
             Query<LibroDTO> query = session.createQuery(hql, LibroDTO.class);
@@ -53,7 +53,7 @@ public class ExportadorCSV {
                 csvWriter.append(libro.getNombre()).append(",");
                 csvWriter.append(libro.getEditorial()).append(",");
                 csvWriter.append(libro.getCategoria()+"").append(",");
-                // Continúa con las demás propiedades según sea necesario
+
                 csvWriter.append("\n");
             }
 
@@ -66,7 +66,7 @@ public class ExportadorCSV {
             }
             e.printStackTrace();
         } finally {
-            // Cierra la sesión y el archivo CSV en el bloque finally para garantizar que se cierren incluso en caso de excepción
+
             if (session != null && session.isOpen()) {
                 session.close();
             }

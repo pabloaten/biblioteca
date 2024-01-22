@@ -375,3 +375,196 @@ Seleccionados todos los libros.
 Usuario conectado: root a 172.24.240.1 (17:53:31)
 Seleccionados todos los libros. 
 Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Usuario conectado: root a 172.24.240.1 (18:30:22)
+Usuario conectado: root a 172.24.240.1 (18:32:40)
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: A | con id: 19
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Usuario conectado: root a 172.24.240.1 (20:26:12)
+Seleccionados todos los libros. 
+Usuario conectado: admin a 172.24.240.1 (20:32:10)
+Usuario conectado: root a 172.24.240.1 (20:33:58)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Usuario conectado: admin a 172.24.240.1 (20:36:42)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Usuario conectado: root a 172.24.240.1 (20:39:36)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Usuario conectado: root a 172.24.240.1 (20:41:14)
+Usuario conectado: admin a 172.24.240.1 (20:41:23)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Usuario conectado: admin a 172.24.240.1 (20:43:15)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Usuario conectado: root a 172.24.240.1 (20:47:30)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionadas todas las categorias. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: a | con id: 20
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Prestamo modificado: IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Omar Monte | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Seleccionados todos los libros. 
+Seleccionadas todas las categorias. 
+Libro modificado: Libro de Omar Montes | con id: 14
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Omar Montes | con id: 14
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Prestamo modificado: IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Seleccionados todos los usuarios.
+Usuario conectado: root a 172.24.240.1 (20:53:38)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionadas todas las categorias. 
+Seleccionadas todas las categorias. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado:   | con id: 45
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario conectado: root a 172.24.240.1 (20:55:52)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Usuario conectado: root a 172.24.240.1 (20:56:53)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Usuario conectado: root a 172.24.240.1 (21:00:01)
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 28, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionadas todas las categorias. 
+Seleccionados todos los libros. 
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Seleccionados todos los usuarios.
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Pablo Aguilar | con id: 28
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Lucía Gálvez | con id: 25
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado:   | con id: 45
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Prestamo modificado: IdPrestamo: 7, IdLibro: 15, IdUsuario: 27, FechaPrestamo: 2024-01-22 17:34:42.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 15, IdUsuario: 27, FechaPrestamo: 2024-01-22 17:34:42.0
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Seleccionadas todas las categorias. 
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Seleccionados todos los usuarios.
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Seleccionados todos los libros. 
+Libro seleccionado: Guia Matisse | con id: 15
+Usuario seleccionado: Natalia Herrera | con id: 27
+Seleccionados todos los libros. 
+Seleccionados todos los libros. 
+Libro seleccionado: Libro de Juaquin  | con id: 13
+Usuario seleccionado: Natalia Herrera | con id: 27
+Prestamo modificado: IdPrestamo: 7, IdLibro: 13, IdUsuario: 27, FechaPrestamo: 2024-01-22 17:34:42.0
+Lista de prestamos: 
+  -IdPrestamo: 6, IdLibro: 14, IdUsuario: 25, FechaPrestamo: 2024-01-22 08:30:44.0
+  -IdPrestamo: 7, IdLibro: 13, IdUsuario: 27, FechaPrestamo: 2024-01-22 17:34:42.0
