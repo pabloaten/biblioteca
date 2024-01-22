@@ -53,9 +53,9 @@ public class CategoriaDTO {
     }
 }'
 
-#### Clase `CategoriaController`
+#### Clase `CategoriaRepository`
 
-La clase `CategoriaController` contiene los métodos necesarios para cumplir con el CRUD de la tabla Categoria.
+La clase `CategoriaRepository` contiene los métodos necesarios para cumplir con el CRUD de la tabla Categoria.
 
 '
 public class CategoriaController {
