@@ -177,7 +177,8 @@ public class ListaPrestamos extends JInternalFrame implements VistaPrestamos, Mo
     private void borrar(PrestamosDTO prestamo) {
 
         if (JOptionPane.showConfirmDialog(this,
-
+                String.format("¿Desea BORRAR el prestamo con id: %d?",prestamo.getIdPrestamo()),
+                "Atención:",
                 JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
             try {
                 presentador.borra();

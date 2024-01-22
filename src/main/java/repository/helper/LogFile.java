@@ -2,6 +2,7 @@ package repository.helper;
 
 import views.helper.HistoricoHelper;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -19,6 +20,18 @@ import java.time.format.DateTimeFormatter;
  */
 public class LogFile {
     private static String file="ficheros/historial"+ LocalDateTime.now().format(DateTimeFormatter.ofPattern("_yyyyMMdd"))+".log";
+
+    public static void createDirectory(){
+        File directorio = new File("ficheros");
+        if (!directorio.exists()) {
+            if (directorio.mkdirs()) {
+                System.out.println("Directorio creado");
+            } else {
+                System.out.println("Error al crear directorio");
+            }
+        }
+    }
+
     /**
      * Graba en el fichero log para el día actual el mensaje recibido
      * el mensaje tambien es grabado en la tabla historico de la BD
@@ -26,6 +39,7 @@ public class LogFile {
      * @throws IOException en el caso de que no pueda accederse adecuadamente al fichero
      */
     public static void saveLOG(String msgLog) throws Exception {
+        createDirectory();
         saveLOGsinBD(msgLog);
         HistoricoHelper.guardarMensaje(msgLog);
     }

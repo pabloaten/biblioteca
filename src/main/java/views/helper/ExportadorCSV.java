@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class ExportadorCSV {
 
-    private static final String RUTA_ARCHIVO_CSV = "C:\\Users\\usuario\\Downloads\\GestionBiblioteca-master\\GestionBiblioteca-master\\ficheros\\fichero.csv"; // Cambia la ruta según tu necesidad
+    private static final String RUTA_ARCHIVO_CSV = "ficheros/fichero.csv"; // Cambia la ruta según tu necesidad
 
     /**
      * Exporta los datos de libros a un archivo CSV.
