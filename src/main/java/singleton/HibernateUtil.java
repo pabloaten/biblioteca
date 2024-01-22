@@ -40,7 +40,12 @@ public class HibernateUtil {
         return sessionFactory;
     }
     private static void showLog(boolean showLog) {
-
+        if (!showLog) {
+            // Para eliminar los mensajes de Hibernate/ hacer cuando este funcionado bien
+            @SuppressWarnings("unused")
+            org.jboss.logging.Logger logger = org.jboss.logging.Logger.getLogger("org.hibernate");
+            java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.SEVERE);
+        }
 
     }
     /**

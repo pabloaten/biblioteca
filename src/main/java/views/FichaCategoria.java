@@ -131,13 +131,25 @@ public class FichaCategoria extends JInternalFrame implements VistaCategoria, Ke
     private void grabar() {
         try {
             categoria.setCategoria(eCategoria.getText());
-            if (categoria.getId()==0) {
-                presentador.inserta();
-                actualizaformulario();
-            }
-            else presentador.modifica();
+            if (!categoria.getCategoria().isBlank()) {
+                if (categoria.getId() == 0) {
+
+
+                    presentador.inserta();
+                    JOptionPane.showMessageDialog(this, "Grabado correctamente!!");
+                    actualizaformulario();
+
+                } else {
+                    presentador.modifica();
+                }
+
+            } else{
+                JOptionPane.showMessageDialog(this, "Rellena los campos", "Error", JOptionPane.ERROR_MESSAGE);
+
+        }
             FormMain.actualizaListaCategorias();
-            JOptionPane.showMessageDialog(this,"Grabado correctamente!!");
+
+            setVisible(false);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this,e.getMessage(),"Error: ",JOptionPane.ERROR_MESSAGE);
         }
@@ -153,6 +165,7 @@ public class FichaCategoria extends JInternalFrame implements VistaCategoria, Ke
                 FormMain.actualizaListaCategorias();
                 JOptionPane.showMessageDialog(this,"Categoria borrado con éxito!!");
                 dispose();
+                setVisible(false);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(this,e.getMessage(),"Error: ",JOptionPane.ERROR_MESSAGE);
             }

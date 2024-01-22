@@ -18,17 +18,20 @@ import java.awt.event.*;
 /**
  * Formulario que permite interactuar (insertar, modificar o borrar)
  * con la información de la tabla usuario
+ *
  * @author AGE
  * @version 2
  */
-public class FichaUsuario extends JInternalFrame implements VistaUsuario, ActionListener, InternalFrameListener, FocusListener , KeyListener{
+public class FichaUsuario extends JInternalFrame implements VistaUsuario, ActionListener, InternalFrameListener, FocusListener, KeyListener {
     private static final int WIDTH = 450;
     private static final int HEIGHT = 150;
     private UsuarioDTO usuario;
     private PresentadorUsuario presentador;
     private JTextField eNombre;
     private JTextField eApellidos;
-    private JPanel pNombre;{
+    private JPanel pNombre;
+
+    {
         FlowLayout flLeft = new FlowLayout();
         flLeft.setAlignment(FlowLayout.LEFT);
         pNombre = new JPanel(flLeft);
@@ -40,7 +43,10 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
         pNombre.add(lNombre);
         pNombre.add(eNombre);
     }
-    private JPanel pApellidos;{
+
+    private JPanel pApellidos;
+
+    {
         FlowLayout flLeft = new FlowLayout();
         flLeft.setAlignment(FlowLayout.LEFT);
         pApellidos = new JPanel(flLeft);
@@ -53,7 +59,9 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
         pApellidos.add(eApellidos);
     }
 
-    private JPanel pCentro;{
+    private JPanel pCentro;
+
+    {
         pCentro = new JPanel(new GridLayout(2, 0));
         TitledBorder titledBorder = BorderFactory.createTitledBorder("Datos personales");
         pCentro.setBorder(titledBorder);
@@ -61,32 +69,38 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
         pCentro.add(pApellidos);
         SwgAuxiliar.AsignaTeclaEnterTab(pCentro);
     }
+
     private JButton bBorrar;
-    private JPanel pSurBLeft;{
+    private JPanel pSurBLeft;
+
+    {
         pSurBLeft = new JPanel();
         FlowLayout flLeft = new FlowLayout();
         flLeft.setAlignment(FlowLayout.LEFT);
         pSurBLeft.setLayout(flLeft);
-        bBorrar= new JButton("Borrar");
+        bBorrar = new JButton("Borrar");
         bBorrar.setMnemonic('B');
         bBorrar.addKeyListener(this);
         bBorrar.addActionListener(this);
         bBorrar.addFocusListener(this);
         pSurBLeft.add(bBorrar);
     }
+
     private JButton bGuardar;
     private JButton bSalir;
-    private JPanel pSurBRight;{
+    private JPanel pSurBRight;
+
+    {
         pSurBRight = new JPanel();
         FlowLayout flRight = new FlowLayout();
         flRight.setAlignment(FlowLayout.RIGHT);
         pSurBRight.setLayout(flRight);
-        bGuardar= new JButton("Guardar");
+        bGuardar = new JButton("Guardar");
         bGuardar.setMnemonic('G');
         bGuardar.addFocusListener(this);
         bGuardar.addActionListener(this);
         bGuardar.addKeyListener(this);
-        bSalir= new JButton("Salir");
+        bSalir = new JButton("Salir");
         bSalir.addFocusListener(this);
         bSalir.addActionListener(this);
         bSalir.addKeyListener(this);
@@ -94,27 +108,34 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
         pSurBRight.add(bGuardar);
         pSurBRight.add(bSalir);
     }
-    private JPanel pSur;{
-        pSur = new JPanel(new GridLayout(0,2));
+
+    private JPanel pSur;
+
+    {
+        pSur = new JPanel(new GridLayout(0, 2));
         pSur.add(pSurBLeft);
         pSur.add(pSurBRight);
     }
+
     @Override
-    public UsuarioDTO getUsuario(){
+    public UsuarioDTO getUsuario() {
         return usuario;
     }
+
     @Override
     public void lanzar() {
 
 
         setVisible(true);
     }
+
     @Override
     public void setPresentador(PresentadorUsuario presentador) {
-        this.presentador=presentador;
+        this.presentador = presentador;
     }
+
     public FichaUsuario(UsuarioDTO usuario) {
-        this.usuario=usuario;
+        this.usuario = usuario;
         setVentana();
         setContenedores();
         actualizaformulario();
@@ -123,7 +144,7 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
 
     private void setContenedores() {
         setLayout(new BorderLayout());
-        add(pCentro,BorderLayout.CENTER);
+        add(pCentro, BorderLayout.CENTER);
         add(pSur, BorderLayout.SOUTH);
     }
 
@@ -134,35 +155,44 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
         setSize(d);
         setMinimumSize(d);
         setClosable(true);
-        setBounds(FormMain.posInterna(),FormMain.posInterna(), WIDTH, HEIGHT);
+        setBounds(FormMain.posInterna(), FormMain.posInterna(), WIDTH, HEIGHT);
     }
+
     private void actualizaformulario() {
         eNombre.setText(getUsuario().getNombre());
         eApellidos.setText(getUsuario().getApellidos());
-        bBorrar.setVisible(getUsuario().getId()!=0);
+        bBorrar.setVisible(getUsuario().getId() != 0);
         this.setTitle(String.format("Ficha usuario: [%d]", getUsuario().getId()));
     }
+
     private void grabar() {
         try {
-           usuario.setNombre(eNombre.getText());
+            usuario.setNombre(eNombre.getText());
             usuario.setApellidos(eApellidos.getText());
-            if (usuario.getId()==0) {
-                presentador.inserta();
-                actualizaformulario();
+            if (!(usuario.getNombre().isBlank() || usuario.getApellidos().isBlank())) {
+                if (usuario.getId() == 0) {
+                    presentador.inserta();
+                    actualizaformulario();
+                } else {
+                    presentador.modifica();
+                }
+                FormMain.actualizaListaUsuarios();
+                JOptionPane.showMessageDialog(this, "Grabado correctamente!!");
+                setVisible(false);
+            } else {
+                JOptionPane.showMessageDialog(this, "Rellena los campos", "Error", JOptionPane.ERROR_MESSAGE);
+
             }
-            else presentador.modifica();
-            FormMain.actualizaListaCategorias();
-            JOptionPane.showMessageDialog(this,"Grabado correctamente!!");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(this,e.getMessage(),"Error: ",JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, e.getMessage(), "Error: ", JOptionPane.ERROR_MESSAGE);
         }
     }
 
 
-    private void salir(){
+    private void salir() {
         if (JOptionPane.showConfirmDialog(this,
-                "¿Desea SALIR de la ficha usuario?","Atención:",
-                JOptionPane.YES_NO_OPTION)==JOptionPane.YES_OPTION)
+                "¿Desea SALIR de la ficha usuario?", "Atención:",
+                JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
             this.dispose();
     }
 
@@ -170,22 +200,24 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
     public void actionPerformed(ActionEvent e) {
         if (e.getSource().equals(bSalir))
             salir();
-        else if (e.getSource().equals(bGuardar)){
-                grabar();
-        } else if (e.getSource().equals(bBorrar)){
+        else if (e.getSource().equals(bGuardar)) {
+            grabar();
+        } else if (e.getSource().equals(bBorrar)) {
             borrar();
         }
     }
+
     private void borrar() {
         if (JOptionPane.showConfirmDialog(this,
-                String.format("¿Desea BORRAR el usuario: %s?",getUsuario().getNombre()),
+                String.format("¿Desea BORRAR el usuario: %s?", getUsuario().getNombre()),
                 "Atención:",
-                JOptionPane.YES_NO_OPTION)==JOptionPane.YES_OPTION) {
+                JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
             try {
                 presentador.borra();
                 FormMain.actualizaListaUsuarios();
+                setVisible(false);
             } catch (Exception e) {
-                JOptionPane.showMessageDialog(this,e.getMessage(),"Error: ",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(this, e.getMessage(), "Error: ", JOptionPane.ERROR_MESSAGE);
             }
         }
     }
@@ -242,9 +274,9 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
 
     @Override
     public void focusLost(FocusEvent e) {
-            if (e.getComponent().equals(eNombre))
+        if (e.getComponent().equals(eNombre))
 
-                    getUsuario().setNombre(eNombre.getText());
+            getUsuario().setNombre(eNombre.getText());
 
     }
 
@@ -255,7 +287,7 @@ public class FichaUsuario extends JInternalFrame implements VistaUsuario, Action
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if (e.getKeyCode()==KeyEvent.VK_ESCAPE)
+        if (e.getKeyCode() == KeyEvent.VK_ESCAPE)
             salir();
     }
 

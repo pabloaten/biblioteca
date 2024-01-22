@@ -332,8 +332,10 @@ public class FichaPrestamo extends JInternalFrame implements VistaPrestamo, Acti
 
 
 
+if(getPrestamo().getIdPrestamo() != 0){
+    eFechaPrestamo.setText(getPrestamo().getFechaPrestamo().toString());
+}
 
-        eFechaPrestamo.setText(" ");
         bBorrar.setVisible(getPrestamo().getIdPrestamo() != 0);
         this.setTitle(String.format("Ficha prestamo: [%d]", getPrestamo().getIdPrestamo()));
     }
@@ -440,6 +442,7 @@ public class FichaPrestamo extends JInternalFrame implements VistaPrestamo, Acti
                 getPrestamo().setFechaPrestamo(timestamp);
                 presentador.inserta();
                 actualizaformulario();
+                setVisible(false);
             } else presentador.modifica();
             FormMain.actualizaListaPrestamos();
             JOptionPane.showMessageDialog(this, "Grabado correctamente!!");
@@ -456,6 +459,7 @@ public class FichaPrestamo extends JInternalFrame implements VistaPrestamo, Acti
                 FormMain.actualizaListaPrestamos();
                 JOptionPane.showMessageDialog(this, "Prestamo borrado con éxito!!");
                 dispose();
+                setVisible(false);
             } catch (Exception e) {
                 SwgAuxiliar.msgExcepcion(e);
             }

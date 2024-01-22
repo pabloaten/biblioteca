@@ -113,6 +113,17 @@ public class FormMain extends JFrame implements ActionListener, FocusListener, W
         miNuevaCategoria.addFocusListener(this);
         mCategorias.add(miNuevaCategoria);
     }
+    private JMenuItem exportarXlsxCategoria;
+
+    {
+        exportarXlsxCategoria = new JMenuItem("Excel...");
+        exportarXlsxCategoria .setMnemonic('N');
+        exportarXlsxCategoria .setFocusable(true);
+        exportarXlsxCategoria .addActionListener(this);
+        exportarXlsxCategoria .addFocusListener(this);
+        mCategorias.add(exportarXlsxCategoria);
+
+    }
 
     private JMenu mUsuarios;
 
@@ -146,6 +157,18 @@ public class FormMain extends JFrame implements ActionListener, FocusListener, W
         mUsuarios.add(miNuevoUsuario);
 
     }
+    private JMenuItem exportarXlsxUsuario;
+
+    {
+        exportarXlsxUsuario = new JMenuItem("Excel...");
+        exportarXlsxUsuario .setMnemonic('N');
+        exportarXlsxUsuario .setFocusable(true);
+        exportarXlsxUsuario .addActionListener(this);
+        exportarXlsxUsuario .addFocusListener(this);
+        mUsuarios.add(exportarXlsxUsuario);
+
+    }
+
 
     private JMenu mLibros;
 
@@ -178,6 +201,17 @@ public class FormMain extends JFrame implements ActionListener, FocusListener, W
         miNuevoLibro.addFocusListener(this);
         mLibros.add(miNuevoLibro);
     }
+    private JMenuItem exportarXlsxLibro;
+
+    {
+        exportarXlsxLibro = new JMenuItem("Excel...");
+        exportarXlsxLibro .setMnemonic('N');
+        exportarXlsxLibro .setFocusable(true);
+        exportarXlsxLibro .addActionListener(this);
+        exportarXlsxLibro .addFocusListener(this);
+        mLibros.add(exportarXlsxLibro);
+
+    }
 
     private JMenu mPrestamos;
 
@@ -208,6 +242,17 @@ public class FormMain extends JFrame implements ActionListener, FocusListener, W
         miNuevoPrestamo.addActionListener(this);
         miNuevoPrestamo.addFocusListener(this);
         mPrestamos.add(miNuevoPrestamo);
+    }
+    private JMenuItem exportarXlsxPrestamo;
+
+    {
+        exportarXlsxPrestamo = new JMenuItem("Excel...");
+        exportarXlsxPrestamo .setMnemonic('N');
+        exportarXlsxPrestamo .setFocusable(true);
+        exportarXlsxPrestamo .addActionListener(this);
+        exportarXlsxPrestamo .addFocusListener(this);
+        mPrestamos.add(exportarXlsxPrestamo);
+
     }
 
     private JMenuBar jMenuBar;
@@ -327,6 +372,7 @@ public class FormMain extends JFrame implements ActionListener, FocusListener, W
             SwgAuxiliar.msgExcepcion(e);
         }
     }
+
 
     private void muestraLibros() {
         try {
@@ -474,6 +520,10 @@ public class FormMain extends JFrame implements ActionListener, FocusListener, W
             loginPassword();*/
         else if (e.getSource() == miListaUsuarios) muestraUsuarios();
         else if (e.getSource() == miNuevoUsuario) nuevoUsuario();
+        else if (e.getSource() == exportarXlsxUsuario) ExportadorXLSX.ExportarXLSXUsuarios();
+        else if (e.getSource() == exportarXlsxLibro) ExportadorXLSX.ExportarXLSXLibros();
+        else if (e.getSource() == exportarXlsxPrestamo) ExportadorXLSX.ExportarXLSXPrestamos();
+        else if (e.getSource() == exportarXlsxCategoria) ExportadorXLSX.ExportarXLSXCategorias();
 
         else if (e.getSource() == miListaCategorias) muestraCategorias();
         else if (e.getSource() == miNuevaCategoria) nuevaCategoria();

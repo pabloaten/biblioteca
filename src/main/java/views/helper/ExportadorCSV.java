@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class ExportadorCSV {
 
-    private static final String RUTA_ARCHIVO_CSV = "ficheros/fichero.csv"; // Cambia la ruta según tu necesidad
+    private static final String RUTA_ARCHIVO_CSV = "ficheros/fichero.csv";
 
     /**
      * Exporta los datos de libros a un archivo CSV.
@@ -43,7 +43,7 @@ public class ExportadorCSV {
             csvWriter = new FileWriter(RUTA_ARCHIVO_CSV);
 
             // Escribe el encabezado del CSV (nombres de columnas)
-            csvWriter.append("Id,Autor,Nombre,Editorial,Categoria"); // Reemplaza con los nombres reales de las columnas
+            csvWriter.append("Id,Autor,Nombre,Editorial,Categoria");
             csvWriter.append("\n");
 
             // Escribe los datos de los libros en el archivo CSV

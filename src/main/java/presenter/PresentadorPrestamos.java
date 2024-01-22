@@ -38,8 +38,6 @@ public class PresentadorPrestamos {
      * @throws Exception Si hay problemas durante el proceso de inserción.
      */
     public void inserta() throws Exception {
-        System.out.println(vistaPrestamo.getPrestamo().toString());
-
         prestamoRepository.inserta(vistaPrestamo.getPrestamo());
     }
 

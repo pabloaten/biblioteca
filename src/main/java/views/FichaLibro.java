@@ -209,15 +209,19 @@ public class FichaLibro extends JInternalFrame implements VistaLibro, ActionList
             getLibro().setEditorial(eEditorial.getText());
             CategoriaDTO categoria=(CategoriaDTO) cbCategoria.getSelectedItem();
             getLibro().setCategoriaByCategoria(categoria);
-            if (categoria!=null)
-                getLibro().setCategoria(categoria.getId());
-            if (getLibro().getId()==0) {
-                presentador.inserta();
-                actualizaformulario();
+            if (!(getLibro().getNombre().isBlank() || getLibro().getAutor().isBlank() || getLibro().getEditorial().isBlank() )) {
+                if (categoria != null)
+                    getLibro().setCategoria(categoria.getId());
+                if (getLibro().getId() == 0) {
+                    presentador.inserta();
+                    actualizaformulario();
+                } else presentador.modifica();
+                FormMain.actualizaListaLibros();
+                JOptionPane.showMessageDialog(this, "Grabado correctamente!!");
+                setVisible(false);
+            }else{
+                JOptionPane.showMessageDialog(this, "Rellena los campos", "Error", JOptionPane.ERROR_MESSAGE);
             }
-            else presentador.modifica();
-            FormMain.actualizaListaLibros();
-            JOptionPane.showMessageDialog(this,"Grabado correctamente!!");
         } catch (Exception e) {
             SwgAuxiliar.msgExcepcion(e);
         }
@@ -233,6 +237,7 @@ public class FichaLibro extends JInternalFrame implements VistaLibro, ActionList
                 FormMain.actualizaListaLibros();
                 JOptionPane.showMessageDialog(this, "Libro borrado con éxito!!");
                 dispose();
+                setVisible(false);
             } catch (Exception e) {
                 SwgAuxiliar.msgExcepcion(e);
             }

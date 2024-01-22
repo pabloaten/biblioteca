@@ -14,6 +14,8 @@ import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.*;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
@@ -147,18 +149,24 @@ public class LoginPass extends JDialog implements ActionListener, WindowListener
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource().equals(bAceptar)) {
-            if (conectar()) {
-                this.dispose();
-                FormMain.getInstance().actualizaFormulario(true);
+            try {
+                if (conectar()) {
+                    this.dispose();
+                    FormMain.getInstance().actualizaFormulario(true);
+                }
+                else JOptionPane.showMessageDialog(this,"Revise la conexión a la BD, el usuario o la contraseña","Atención: ",JOptionPane.INFORMATION_MESSAGE);
+            } catch (UnknownHostException ex) {
+                throw new RuntimeException(ex);
             }
-            else JOptionPane.showMessageDialog(this,"Revise la conexión a la BD, el usuario o la contraseña","Atención: ",JOptionPane.INFORMATION_MESSAGE);
         } else if (e.getSource().equals(bSalir))
             salir();
     }
 
-    private boolean conectar() {
+    private boolean conectar() throws UnknownHostException {
         boolean bSalir = false;
         myConf.setUser(eUser.getText());
+        InetAddress direccionLocal = InetAddress.getLocalHost();
+        myConf.setUrl(direccionLocal.getHostAddress());
 
         try {
             myConf.actualizarConfiguracion(myConf.getUser(), String.valueOf(ePass.getPassword()));
