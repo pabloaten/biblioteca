@@ -1,5 +1,7 @@
 # Gestion de una biblioteca usando *hibernate*
 
+Este programa de java consiste en la gestión de la base de datos de una biblioteca usando Hibernate, en el que se pueden manipular los usuarios, libros, categorias y prestamos, además de contar con una interfaz gráfica completamente funcional y flexible.
+
 ## Correspondencia entre clases y tablas
 
 A continuación, vamos a detallar la correspondencia entre las clases de nuestro proyecto de Hibernate y las tablas de la base de datos haciendo también incampié en las clases controladoras con sus métodos:
